@@ -1,0 +1,18 @@
+{
+  "name": "correios-tracking-notifer",
+  "version": "1.0.0",
+  "description": "Robô que te avisa quando houve mudança no rastreio de objetos do correios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emanuel Oliveira (@emanueloliveira23)",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "node-html-parser": "^1.1.12",
+    "rastreio": "^0.1.3",
+    "telegram-api": "^4.2.0",
+    "tracking-correios": "^1.1.7"
+  }
+}
